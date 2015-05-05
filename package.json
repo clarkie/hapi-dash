@@ -1,6 +1,6 @@
 {
   "name": "hapi-dash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A terminal dashboard plugin for hapi",
   "keywords": [
     "monitor",
