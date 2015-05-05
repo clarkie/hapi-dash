@@ -11,9 +11,9 @@ describe('Plugin', function () {
 
     it('should register with hapi server', function (done) {
 
-		var server = new Hapi.Server();
+        var server = new Hapi.Server();
 
- 		var plugin = {
+        var plugin = {
             register: require('..'),
             options: {}
         };
@@ -22,7 +22,7 @@ describe('Plugin', function () {
 
             expect(err).to.not.exist();
 
-        	return done();
+            return done();
         });
     });
 });

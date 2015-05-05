@@ -9,6 +9,7 @@
     "plugin",
     "dashboard"
   ],
+  "repository": "git://github.com/clarkie/hapi-dash",
   "main": "index.js",
   "peerDependencies": {
     "hapi": ">= 8.x.x"
